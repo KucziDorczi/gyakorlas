@@ -1,0 +1,7 @@
+- task: UsePythonVersion@0
+inputs:
+versionSpec: '3.x'
+addToPath: true
+-script: |
+python hello.py
+displayName: 'Run hello.py'
